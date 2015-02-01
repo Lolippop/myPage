@@ -1,0 +1,71 @@
+input{color: #666666;font-family:arial,georgia,verdana,helvetica,cursive;}
+
+body{margin:0;padding:0;background:#3b536a;}
+
+
+a{
+    -webkit-transition: color 1s ease-in;
+    -moz-transition: color 1s ease-in;
+    -ms-transition: color 1s ease-in;
+    -o-transition: color 1s ease-in;
+    transition: color 1s ease-in;
+}
+a:link { text-decoration: none;color: #ECF0F1}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline;color: #D35400}
+a:visited { text-decoration: none;color: #BDC3C7}
+
+#main{width: 100%;}
+
+.emptyRow{
+    width:100%;
+    height:30px;
+    clear:both;
+}
+
+.articleList{
+    font-family:arial,georgia,verdana,helvetica,cursive;
+    color: #ECF0F1;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.listHead {
+    font-family:'黑体',arial,georgia,verdana,helvetica,cursive;
+    font-size: 15px;
+}
+
+.listInfo{
+    font-family: '黑体',arial,georgia,verdana,helvetica,cursive;
+    font-size: 14px;
+    color: #888888;
+}
+
+.headBar{
+    height: 40px;
+    font-family: arial, georgia, verdana, helvetica ,cursive;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #7F8C8D;
+    position: fixed;
+    z-index: 90;
+}
+
+.contentBar{
+    color: #3b536a;
+    font-family: '黑体', arial, georgia, verdana, helvetica ,cursive;
+    font-weight: bold;
+    height:40px;
+    margin-top: 10px;
+    background-color: #1BC4A3;
+}
+
+.col-1{width:10%;height:100%;float:left;}
+.col-2{width:20%;height:100%;float:left;}
+.col-3{width:30%;height:100%;float:left;}
+.col-4{width:40%;height:100%;float:left;}
+.col-5{width:50%;height:100%;float:left;}
+.col-6{width:60%;height:100%;float:left;}
+.col-7{width:70%;height:100%;float:left;}
+.col-8{width:80%;height:100%;float:left;}
+.col-9{width:90%;height:100%;float:left;}
